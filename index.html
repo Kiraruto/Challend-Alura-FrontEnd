@@ -1,0 +1,95 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Css -->
+
+    <!-- Js -->
+    <script src="./index.js" defer></script>
+    <!-- Js -->
+  </head>
+  <body class="body">
+    <main>
+      <div class="container">
+        <img src="./img/Logo.png" alt="Logo.png" class="img_main_01" />
+        <div>
+          <textarea
+            placeholder="Digite seu texto"
+            class="textA_main"
+            id="textA_main"
+            oninput="autoResize()"
+            maxlength="125"
+          ></textarea>
+        </div>
+        <div class="retangulo" id="retangulo"></div>
+        <section id="sec">
+          <div class="container_img_mulher_sentada" id="retangulo">
+            <div class="png">
+              <img
+                src="./img/High quality products 1 1.png"
+                alt="MulherSentada.png"
+                class="img_main_04"
+                id="mulher"
+              />
+            </div>
+            <div class="text_fotos">
+              <h3 class="h3_main">Nenhuma menssagem encontrada</h3>
+              <p class="p_main">
+                Digite um texto que você deseja criptografar ou descriptografar.
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="container_btn" id="allButton">
+          <div class="img_btn">
+            <img
+              src="./img/bi_exclamation-circle-fill.png"
+              alt="exclamation-circle.png"
+              class="img_main_02"
+            />
+            <p class="pp_main">Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <div class="btn" id="btn ">
+            <br />
+            <button class="btn1_main" id="btn1" onclick="criptografarLetras()">
+              Criptografar
+            </button>
+            <button class="btn2_main" onclick="descriptografarLetras()">
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="div-footer">
+        <a
+          href="www.linkedin.com/in/gustavo-henrique-b-queiroz
+
+        "
+        >
+          <img
+            src="./img/icons8-linkedin-48.png"
+            alt="Linkedin.jpeg"
+            class="img img1"
+          />
+        </a>
+        <p class="p-footer">Desenvolvido por Gustavo Henrique</p>
+        <a href="">
+          <img
+            src="./img/github-logo_25231.png"
+            alt="Github.png"
+            class="img img2"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

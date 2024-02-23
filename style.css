@@ -1,0 +1,288 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #f3f5fc;
+}
+
+.img_main_01 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.btn1_main {
+  background-color: darkblue;
+  color: #ffffff;
+  margin-right: 24px;
+  margin-left: 200px;
+  width: 350px;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 850px;
+}
+
+.btn2_main {
+  background-color: lightgrey;
+  color: #0a3871;
+  width: 350px;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 850px;
+  left: 580px;
+}
+
+.img_main_03 {
+  position: absolute;
+  left: 1400px;
+  top: 40px;
+}
+
+.img_main_04 {
+  top: 260px;
+  right: 70px;
+  position: absolute;
+}
+
+.h3_main,
+.p_main {
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  background-attachment: fixed;
+  top: 100px;
+  right: 90px;
+}
+
+.h3_main {
+  font-size: 24px;
+  margin-bottom: 16px;
+  top: 580px;
+}
+
+.p_main {
+  font-size: 16px;
+  top: 660px;
+}
+
+.textA_main {
+  font-size: 38px;
+  top: 200px;
+  left: 200px;
+  border-color: transparent;
+  outline: 0;
+  background-color: #f3f5fc;
+  color: #0a3871;
+  resize: none;
+  overflow-y: hidden;
+  width: 60%;
+  position: absolute;
+}
+
+.textA_main::placeholder {
+  color: #0a3871;
+}
+
+.retangulo {
+  width: 400px;
+  height: 850px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 40px;
+  right: 40px;
+  border-radius: 32px;
+  box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+}
+
+.img_btn {
+  display: flex;
+}
+
+.img_main_02 {
+  position: absolute;
+  top: 812px;
+  left: 200px;
+}
+
+.pp_main {
+  position: absolute;
+  top: 812px;
+  left: 230px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: #0a3871;
+}
+
+.div-footer {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.p-footer {
+  margin-bottom: 8px;
+}
+
+.img {
+  width: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn1_main {
+    margin-left: 25px;
+  }
+
+  .btn2_main {
+    margin-left: -195px;
+  }
+
+  .btn1_main,
+  .btn2_main {
+    margin-top: 20px;
+    height: 67px;
+  }
+
+  .img_main_02 {
+    left: 25px;
+    margin-top: 20px;
+  }
+
+  .pp_main {
+    left: 50px;
+    margin-top: 20px;
+  }
+
+  .img_main_04 {
+    opacity: 0;
+  }
+
+  .img_main_01 {
+    margin-left: 15px;
+  }
+
+  .retangulo {
+    width: 90%;
+    height: 133px;
+    top: 975px;
+    right: 37px;
+    overflow-x: auto;
+    box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0px 10px 8px -4px rgba(0, 0, 0, 0.77);
+    position: absolute;
+  }
+
+  .h3_main {
+    font-size: 24px;
+    width: 500px;
+    top: 1020px;
+    left: 140px;
+  }
+
+  .p_main {
+    font-size: 16px;
+    width: 550px;
+    top: 1080px;
+    left: 115px;
+  }
+
+  .textA_main {
+    width: 80%;
+    left: 88px;
+    left: 59px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .textA_main {
+    top: 135px;
+    margin-left: -27px;
+    font-size: 30px;
+  }
+
+  .img_main_01 {
+    margin-left: -12px;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn1_main,
+  .btn2_main {
+    position: relative;
+    flex-direction: column;
+    width: 343px;
+    height: 67px;
+    top: 730px;
+  }
+
+  .btn1_main {
+    margin-top: -520px;
+    left: -10px;
+  }
+
+  .btn2_main {
+    left: 210px;
+  }
+
+  .img_main_02 {
+    top: 430px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .pp_main {
+    top: 429px;
+    width: 308px;
+    height: 18px;
+    font-size: 15px;
+  }
+
+  .retangulo {
+    height: 203px;
+    top: 660px;
+    right: 20px;
+  }
+
+  .h3_main {
+    top: 690px;
+    left: 40px;
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .p_main {
+    top: 780px;
+    left: 40px;
+    font-size: 16px;
+    width: 300px;
+  }
+}
